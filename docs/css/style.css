@@ -1,10 +1,175 @@
 body{
-    background:#ccc;
+    margin:0;
+    padding:0;
 }
 
 .wrapper {
-  max-width:650px;
+  max-width:960px;
   margin:0 auto;
   position:relative;
   padding: 0 20px;
+}
+
+
+
+
+nav.sample-1{
+    border:1px solid #F00;
+    width:520px;
+    overflow:hidden;  // 内容会被修剪，并且其余内容是不可见的
+}
+
+nav.sample-1 ul{
+    padding:0; 
+    margin:0;
+}
+
+nav.sample-1 li{
+    padding:0; 
+    margin:0;
+    list-style:none;
+    line-height:22px;
+    float:left;
+    padding:0 6px;
+}
+
+nav.sample-2{
+    border:1px solid #F00;
+    margin:20px 0;
+    position:relative;
+}
+
+nav.sample-2 ul{
+    margin:0;
+    padding:0;
+}
+
+
+
+nav.sample-2 li{
+    margin 0 5px 10px 0;
+    padding:0;
+    list-style:none;
+    display:inline-block;
+}
+
+nav.sample-2 a{
+    padding: 3px 12px; 
+    text-decoration: none; 
+    color: #999; 
+    line-height: 100%; 
+}
+
+nav.sample-2 .current a { 
+background: #999; 
+color: #fff; 
+border-radius: 5px; 
+} 
+
+nav.sample-2 a:hover{
+    color: #d0d0d0; 
+}
+
+nav.sample-2.center ul{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+nav.sample-2.right ul{
+    margin:0;
+    padding:0;
+    text-align:right;
+}
+
+nav.sample-3{
+width: 100%;
+height: 70px;
+background-color: #CCCCCC;
+}
+
+.logo{
+width: 50px;
+height: 70px;
+float: left;
+line-height: 70px;
+}
+.link{
+width: 650px;
+height: 70px;	
+line-height: 70px;	/*行间居中*/
+float: right;
+}
+.link li{
+width: 100px;
+float: left;
+text-align: center;	/*文字居中*/
+}
+.link a{
+display: block; /*块极化元素*/
+}
+.link a:hover,
+.active{
+background-color: #C0C0C0; /*鼠标移入链接时,li的背景色变化*/
+}
+
+@media screen and (max-width: 1024px) { 
+nav.sample-2{
+    position:relative;
+    min-height:40px;
+}
+
+nav.sample-2 ul{
+    width:180px;
+    padding:5px;
+    position:absolute;
+    top:0;
+    left:0;
+    border:solid 1px #aaa;
+    background: #fff url(images/menu.png) no-repeat 10px 11px; 
+    border-radius: 5px; 
+    box-shadow: 0 1px 2px rgba(0,0,0,.3); 
+}
+
+nav.sample-2 li{
+    display:none;
+    margin:0;
+}
+
+nav.sample-2 .current{
+    display: block;
+}
+
+nav.sample-2 a{
+    display: block; 
+    padding: 5px 5px 5px 32px; 
+    text-align: left; 
+}
+
+nav.sample-2 .current a{
+    background: none; 
+    color: #666; 
+}
+
+nav.sample-2 ul:hover{
+    display: block; 
+    margin: 0 0 5px; 
+}
+
+nav.sample-2 ul:hover .current { 
+background: url(images/check.png) no-repeat 10px 7px; 
+}
+
+nav.sample-2.right ul{
+    left: auto; 
+    right: 0; 
+}
+
+nav.sample-2.center ul{
+    left: 50%; 
+    margin-left: -90px; 
+}
+
+
+
 }
