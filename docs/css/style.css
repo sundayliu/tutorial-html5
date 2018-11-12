@@ -1,6 +1,7 @@
-body{
-    margin:0;
-    padding:0;
+// reset 
+body, div, ul, li, a, h1  {padding: 0; margin: 0; font-size: 100%;}
+hr{
+    clear:both;
 }
 
 .wrapper {
@@ -10,6 +11,47 @@ body{
   padding: 0 20px;
 }
 
+#navgation-1 #brand  {font-family: sans-serif; font-size: 1.99em; line-height: 50px; float: left; color: #999;}
+
+nav.test-1 {width:100%; text-align: center;}
+
+nav.test-1 ul {float: right; line-height: 3.125em;}
+
+nav.test-1 li {list-style:none; display: inline-block;}
+
+nav.test-1 a {text-decoration: none; padding: .625em 1em; font-size: 115%; color: #999; font-family: sans-serif;}
+
+nav.test-1 a:hover {color:#c00;}
+
+nav.test-1 .current  {color: rgb(255,0,0)}
+@media screen and (max-width: 768px) {
+    #navgation-1 #brand  {margin-top: -1.571em;} /* Keeps #brand at the top of Header */
+    nav.test-1 {}
+    nav.test-1 ul {float: none; margin-top: 3.125em; background: #c00;}
+    nav.test-1 li {display: inline;}
+    nav.test-1 a {color: #ddd;}
+    nav.test-1 li a:hover {
+    background: rgba(76,0,0,.1);
+    color: #fff;
+  }
+  nav.test-1 .current  {color: #fff;}
+}
+
+@media (max-width: 500px)  {
+  nav.test-1 li a {
+    display: block;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: .15em;
+    font-size: 120%;
+  }
+  
+  nav.test-1 li a:hover {
+    background: rgba(76,0,0,.1)
+  }
+  
+  nav.test-1 .current  {color: #fff;}
+}
 
 
 
