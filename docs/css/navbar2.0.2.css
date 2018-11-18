@@ -10,8 +10,13 @@ hr{
   padding: 0 20px;
 }
 
+.title{
+    // float:left;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
+    // float:right;
     background-color: #333;
     overflow: hidden;
 }
