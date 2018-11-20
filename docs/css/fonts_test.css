@@ -1,0 +1,17 @@
+p#zh-yahei{
+    font-family:"Microsoft YaHei",sans-serif;
+}
+
+p#zh-songti{
+    
+    font-family:"SimSun",sans-serif;
+}
+
+p#en-open-sans{
+    font-family:"Tahoma",sans-serif;
+}
+
+p#en-zh-all{
+    // font-family:Helvetica,Tahoma,STXihei,"Microsoft YaHei",sans-serif;
+    font-family:"Microsoft YaHei",STXihei,sans-serif;
+}
