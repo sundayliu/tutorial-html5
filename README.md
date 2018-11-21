@@ -24,3 +24,12 @@ relative 生成相对定位的元素，相对于其正常位置进行定位。�
 - https://www.w3schools.com/css/css_navbar.asp
 - https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 - https://toddmotto.com/building-an-html5-responsive-menu-with-media-queries-javascript/
+
+# Layout template
+- https://colorlib.com/wp/best-website-templates/
+- https://medium.com/level-up-web/free-responsive-html5-css3-website-templates-9c3938d62428
+- https://templated.co/
+- https://colorlib.com/wp/css-layouts/
+- https://www.w3schools.com/html/html5_semantic_elements.asp
+- https://www.semrush.com/blog/semantic-html5-guide/
+- https://www.themelocation.com/best-html5-practices/
