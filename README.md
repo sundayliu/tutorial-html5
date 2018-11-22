@@ -33,3 +33,24 @@ relative 生成相对定位的元素，相对于其正常位置进行定位。�
 - https://www.w3schools.com/html/html5_semantic_elements.asp
 - https://www.semrush.com/blog/semantic-html5-guide/
 - https://www.themelocation.com/best-html5-practices/
+
+UA-129695612-1
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129695612-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129695612-1');
+</script>
+
+这是针对此媒体资源的全局网站代码 (gtag.js) 跟踪代码。请复制此代码，并将其作为第一个项目粘贴到您要跟踪的每个网页的 <HEAD> 标记中。如果您的网页上已经有全局网站代码，则只需将以下代码段中的 config 行添加到现有的全局网站代码。
+
+
+- https://startbootstrap.com/template-categories/blogs/
+- https://justfreethemes.com/themes/blogging/page/1/
+- https://colorlib.com/wp/best-personal-blog-wordpress-themes/
+- https://colorlib.com/wp/free-blogger-templates/
+- https://www.template.net/cms-templates/top-20-admin-cms-templates/
+- https://www.wix.com/website/templates/html/blogs-and-forums
